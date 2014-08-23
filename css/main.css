@@ -5,19 +5,33 @@
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     height: 100%;
+}
+
+.title, .github{
+    left: 50%;
+    margin-left: -150px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+}
+
+.title{
+    top: 10%;
+}
+
+.github{
+    top: 80%;
 }
 
 h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 36px;
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 p{
-    text-align: center;
     margin-top: 5px;
     color: #556272;
 }

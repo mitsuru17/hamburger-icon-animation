@@ -42,11 +42,7 @@ a{
 
 .menu {
     cursor: pointer;
-    display: block;
-    float: left;
-    position: fixed;
     transition: all 275ms ease;
-    z-index: 100000000;
 }
 
 .menu > span {
@@ -62,10 +58,6 @@ a{
 
 .menu:hover span {
     background: #556272 !important;
-}
-
-.menu.active span {
-  background: #000 !important;
 }
 
 /* Hamburger animations */

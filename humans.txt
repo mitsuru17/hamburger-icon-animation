@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Marco Santonocito -- Developer and designer -- @mark_design
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3

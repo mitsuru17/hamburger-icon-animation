@@ -1,0 +1,90 @@
+/* ==========================================================================
+   General style
+   ========================================================================== */
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0px;
+}
+
+p{
+    text-align: center;
+    margin-top: 5px;
+    color: #556272;
+}
+
+a{
+    color: #556272;
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -12px 0px 0px -17px;
+}
+
+/* ==========================================================================
+   Hamburger icon style
+   ========================================================================== */
+
+/* General style */
+
+.menu {
+    cursor: pointer;
+    display: block;
+    float: left;
+    position: fixed;
+    transition: all 275ms ease;
+    z-index: 100000000;
+}
+
+.menu > span {
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    height: 5px;
+    margin-bottom: 5px;
+    transition: all 275ms ease;
+    -webkit-transition: all 275ms ease;
+    width: 35px;
+}
+
+.menu:hover span {
+    background: #556272 !important;
+}
+
+.menu.active span {
+  background: #000 !important;
+}
+
+/* Hamburger animations */
+
+.menu.active {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.menu.active span.bar1 {
+    transform: rotate(0deg) translateY(10px); /* translateY = height + margin-bottom */
+    -webkit-transform: rotate(0deg) translateY(10px);
+}
+
+.menu.active span.bar2 {
+    opacity: 0;
+}
+
+.menu.active span.bar3 {
+    transform: rotate(-90deg) translateX(10px); /* translateX = height + margin-bottom */
+    -webkit-transform: rotate(-90deg) translateX(10px);
+}

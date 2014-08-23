@@ -8,14 +8,33 @@ Today is raining in Italy so I thought it would be fun to build an animated hamb
 I know, many of you use a font or an image to represent the hamburger icon but we can create it only using HTML and CSS. Yeyyy! 
 Firstly we need to write down our markup:
 
-``` <a class=”menu” href=”javascript:;”> 	<span class=”bar1"></span> 	<span class=”bar2"></span> 	<span class=”bar3"></span> </a> ```
+``` 
+<a class=”menu” href=”javascript:;”> 
+    <span class=”bar1"></span> 
+    <span class=”bar2"></span> 
+    <span class=”bar3"></span> </a> 
+```
+
 and now it’s time to write the CSS (I’m a little bit obsessed with alphabetical order):
 
-``` .menu { 	cursor: pointer; }
+```
+ .menu { 
+    cursor: pointer; 
+}
 
-.menu > span { 	background: #000; 	border-radius: 3px; 	display: block; 	height: 5px; 	margin-bottom: 5px; 	width: 35px; }
+.menu > span { 
+    background: #000; 
+    border-radius: 3px; 
+    display: block; 
+    height: 5px; 
+    margin-bottom: 5px; 
+    width: 35px; 
+}
 
-.menu:hover span { 	background: #556272 !important; } ```
+.menu:hover span { 
+    background: #556272 !important; 
+}
+```
 
 And that’s it… now you have your CSS hamburger icon (write this little tutorial makes me hungry ;) ).
  ## Add animations to our Hamburger icon

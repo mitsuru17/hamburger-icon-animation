@@ -41,6 +41,10 @@ a{
     text-decoration: none;
 }
 
+a.menu:focus,a.menu.active:focus {
+   outline: none;
+}
+
 .menu {
     position: absolute;
     left: 50%;
